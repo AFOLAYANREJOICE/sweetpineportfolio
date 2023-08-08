@@ -9,13 +9,14 @@ header, section, footer, aside, nav, article, figure, figcaption {
    }
 
     nav, footer {
-        <style  {background-color:#983b98;font-family:sans-serif;height:100%;margin:0;padding:0}._6u8c{background-color:#983b98;height:45px;width:100%}
+        <style  {background-color:#983b98;font-family:sans-serif;height:100%;margin:0;padding:0}._6u8c{background-color:#983b98;height:45px;width:50%}
    }
    nav, body
 {clear: both;
     color: #000008;
     background-color: #aca8ae;
-    height: 30px;}
+    height: 30px;
+width: 500;}
     
 nav ul {
     margin: 0px;
@@ -84,7 +85,7 @@ p {
 h1{
     border: 5px solid #15052b;
     padding: 10px;
-    width: 370px;
+    width: 275px;
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;	}
@@ -92,7 +93,7 @@ h1{
     -webkit-text-fill-colo;
     border: 5px solid #1e0242;
     padding: 0px;
-    width: 1210px;
+    width: 500px;
     height:4cm;
     border-radius: 10px;
     background-color: rgb(34, 0, 53);
