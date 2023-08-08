@@ -5,7 +5,7 @@
   <meta charset="UFT-8">
   <META name="Viewpoint"
   content="width=device-width,initial scale=1.0">
-  <title>DOCUMENT</title><meta name="google" content="notranslate"><link type="text/css" rel="stylesheet" href="styles.css">
+  <title>DOCUMENT</title><meta name="google" content="width=device-width><link type="text/css" rel="stylesheet" href="styles.css">
 
 <link rel="stylesheet" href="styles.css">
  </head>
@@ -58,7 +58,26 @@
 				border-right: 1px solid #eeeeee;}
                 h6 {
 				color: #f0ecec;}
-			
+		/* Mobile-first styles (default) */
+/* These styles will be applied to all devices initially */
+body {
+  font-size: 16px;
+}
+
+/* Tablet styles (768px and up) */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Desktop styles (1024px and up) */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+	
                 
 			
             
@@ -75,7 +94,7 @@
     }
         img {
         max-width: 15%;
-        height: 5%
+        height: auto;
          
     
     } 
